@@ -1,0 +1,7 @@
+.button-wrapper {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--bg-black);
+    font-size: 24px;
+    font-weight: 700;
+}
