@@ -1,7 +1,7 @@
 @import './common/styles/fonts/fonts.css';
 @import './common/styles/variable.css';
 @import './common/styles/commonClasses.css';
-
+@import './common/styles/animation.css';
 body {
   margin: 0;
   font-family: Gilroy, sans-serif;
