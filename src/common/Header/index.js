@@ -22,8 +22,9 @@ const Header = () => {
         <img
           src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png"
           className="header-logo"
+          alt="logo"
         />
-        <div className="only-mobile mobile-menu-wrapper">
+        <div className="only-mobile mobile-menu-button-wrapper">
           <button
             className={`hamburger hamburger--arrowalt ${
               showMobMenu ? "is-active" : ""

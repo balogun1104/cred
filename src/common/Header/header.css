@@ -41,3 +41,34 @@
 .mobile-menu-button-wrapper {
     z-index: 2;
 }
+
+.mobile-navbar{
+    margin-top: 95px;
+    overflow: scroll;
+    width: 90%;
+}
+
+.mobile-nav-item{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--bg-light-gray);
+}
+
+@media all and (max-width: 1279px) {
+    .header-logo {
+        height: 53px;
+    }
+    .header-nav-item {
+        margin: 0px 16px 0px 28px;
+    }
+}
+
+@media all and (max-width: 767px) {
+   .header {
+    padding-bottom: 50px;
+   }
+}
