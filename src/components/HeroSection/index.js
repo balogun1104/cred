@@ -5,9 +5,9 @@ import './heroSection.css'
 const HeroSection = () => {
   return (
     <div className='her-section-wrapper'>
-      <div className='flex absolute-center hero-claim-label'>
+      {/* <div className='flex absolute-center hero-claim-label'>
         <div></div>
-      </div>
+      </div> */}
       <div className='flex absolute-center flex-col hero-section max-width'>
         <div className='hero-heading'>
            rewards for paying credit card bills.
