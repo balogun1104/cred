@@ -42,3 +42,13 @@
     transform: translate(60%, 15%);
     z-index: 98;
 }
+
+@media all and (max-width: 1279px) {
+    .product-showcase {
+        height: 450px;
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png");
+    }
+    .showcase-ui {
+        width: 170px;
+    }
+}
