@@ -4,11 +4,11 @@ import "./credExperience.css";
 
 const CredExperience = () => {
   return (
-    <div className="cred-expereience photo-section">
+    <div className="cred-experience photo-section">
       <div className="max-width">
         <div className="photo-section-child">
           <div className="photo-section-top">
-            <div className="photo-section-heading cred-expereience-heading">
+            <div className="photo-section-heading cred-experience-heading">
               we take your money matters seriously.
             </div>
             <div className="photo-section-subheading">
@@ -16,13 +16,13 @@ const CredExperience = () => {
             </div>
           </div>
           <div className="photo-section-bottom">
-            <div className="photo-section-descprition cred-expereience-decription">
+            <div className="photo-section-description cred-experience-description">
               never miss a due date with reminders to help you pay your bills on
               time, instant settlements mean you never wait for your payments to
               go through and statement analysis lets you know where your money
               goes, always.
             </div>
-            <div>
+            <div className="photo-section-button">
               <Button buttonText="Experience the upgrade" />
             </div>
           </div>
